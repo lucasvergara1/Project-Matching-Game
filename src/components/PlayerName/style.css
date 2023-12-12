@@ -1,18 +1,7 @@
 .player-name {
     display: flex;
-    padding-left: 20px;
-    padding-top: 25px;
     color: var(--color-floral-white);
     font-size: 1rem;
     line-height: 10px;
 }
 
-.player-2 {
-    display: flex;
-    padding-left: 20px;
-    padding-top: 25px;
-    font-family: "Press Start 2P",Arial;
-    color: var(--color-floral-white);
-    font-size: 10px;
-    line-height: 10px;
-}
