@@ -20,7 +20,7 @@
 
 }
 
-card-front-back > .card.-back {
+.card-front-back > .card.-back {
     transform: rotateY(180deg);
 
 }

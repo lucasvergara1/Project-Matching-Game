@@ -12,7 +12,7 @@ function CardFrontBack() {
         }
 
     return /*html*/ `
-        <article class="card-front-back" onClick="window.cardFrontBack.handleClick(event)">
+        <article class="card-front-back" onClick="cardFrontBack.handleClick(event)">
 
             <div class="card -front">
                 ${CardGame()}
