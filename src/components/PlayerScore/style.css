@@ -10,7 +10,7 @@
 }
 
 .player-score > .pointer {
-    background-color:var(--color-old-silver) ;
+    background-color:var(--color-old-silver);
     text-indent:-999px;
     overflow: hidden;
     width: 33%;
