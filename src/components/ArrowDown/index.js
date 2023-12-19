@@ -5,7 +5,6 @@ function ArrowDown(currentPlayer = 1) {
         <img class="arrow-down" 
         data-currentPlayer="${currentPlayer}"
         src="images/IconArrowDown.png"alt="Icone de uma seta para baixo">
-    
     `;
 
 

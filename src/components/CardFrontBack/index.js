@@ -13,7 +13,6 @@ function CardFrontBack(icon, altIcon) {
 
     return /*html*/ `
         <article class="card-front-back" onClick="cardFrontBack.handleClick(event)">
-
             <div class="card -front">
                 ${CardGame()}
             </div>   
