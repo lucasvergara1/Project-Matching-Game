@@ -10,9 +10,12 @@ function BoardGame(amountCards) {
     const swapPlayer = () => {
         const $arrowDown = document.querySelector('.arrow-down');
         const currentPlayer = $arrowDown.getAttribute('data-currentplayer');
+            
 
         $arrowDown.setAttribute('data-currentplayer', currentPlayer === '1' ? '2' : '1');
+            console.log(currentPlayer);
     }
+
     window.boardGame = {};
     window.boardGame.handleClick = () => {
         const $boardGame = document.querySelector('.board-game');
